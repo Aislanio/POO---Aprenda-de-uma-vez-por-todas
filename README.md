@@ -40,18 +40,18 @@ let nwdog = new Dog(1, "Caramelo", 3, "tosa");
 Para você lembrar, no nosso código: ```constructor(id, name, idade, servico)```
 
 Isso nos retorna um objeto:
-```
+```javascript
 Dog { id: 1, name: 'Caramelo', idade: 3, servico: 'tosa' }
 ```
 # E como podemos armazenar os Dogs?
 
 Para armazenar, você pode tanto jogar no banco de dados em uma tabela ou em um array:
-```
+```javascript
 let DogsArray = [];
 DogsArray.push(nwdog);
 ```
 Espero que tenha entendido! Qualquer dúvida, é só falar comigo na DM.
 
-```
+```javascript
 console.log("Obrigado!");
 ```
